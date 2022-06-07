@@ -1,0 +1,288 @@
+:root {
+    --navBackgroundColor: #171010;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.transparent {
+    background-color: none;
+}
+
+/* NAV BAR */
+#navBar {
+    /* border: solid black 5px; */
+    background-color: var(--navBackgroundColor);
+    border-bottom: solid black 5px;
+    flex-wrap: wrap;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#headerName {
+    color: white;
+    background-color: var(--navBackgroundColor);
+}
+
+nav ul {
+    background-color: var(--navBackgroundColor);
+}
+
+nav li {
+    
+    font-size: 150%;
+    display: inline;
+    padding: 0 10px 0 10px;
+    background-color: var(--navBackgroundColor);
+}
+
+nav a {
+    color: white;
+    background-color: var(--navBackgroundColor);
+    text-decoration: none;
+}
+
+/* ABOUT ME SECTION */
+#aboutMe {
+    /* border: solid black 4px; */
+    background-color: #24252A;
+    padding-top: 7%;
+    justify-content: center;
+    height: 1040px;
+}
+
+#headshotPhotoBox {
+    /* border: solid black 4px; */
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+#headshotPhoto {
+    border: solid var(--navBackgroundColor) 20px;
+    height: 90%;
+    width: 90%;
+}
+
+#bio {
+    /* border: solid black 4px; */
+    flex-flow: column;
+    justify-content: center;
+    height: 50%;
+    margin-left: 15%;
+}
+
+#aboutMe h1 {
+    font-size: 400%;
+    color: white;
+}
+
+#aboutMe h2 {
+    color: white;
+}
+
+#aboutMe p {
+    color: white;
+    margin-top: 2%;
+}
+
+/* SECTION LINE */
+.seperationLineBox{
+    background-color: #24252A;
+    justify-content: center;
+}
+
+#seperationLine {
+    height: 3px;
+    width: 75%;
+    background-color: black;
+}
+
+/* MORE ABOUT ME SECTION */
+#moreAboutMeHeader {
+    /* border: solid black 4px; */
+    background-color: #24252A;
+    color: white;
+    padding: 3% 0 0 14%;
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+#moreAboutMe {
+    /* border: solid black 4px; */
+    background-color: #24252A;
+    padding-top: 75px;
+    height: 850px;
+    justify-content: center;
+}
+
+#moreAboutMeCol1 {
+    /* border: solid black 4px; */
+    background-color: var(--navBackgroundColor);
+    color: white;
+    box-shadow: black 5px 5px;
+    padding: 1%;
+    width: 18%;
+    height: 590px;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+#moreAboutMeCol2 {
+    /* border: solid black 4px; */
+    background-color: var(--navBackgroundColor);
+    color: white;
+    box-shadow: black 5px 5px;
+    margin: 0 6% 0 6%;
+    padding: 1%;
+    width: 18%;
+    height: 590px;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+#moreAboutMeCol3 {
+    /* border: solid black 4px; */
+    background-color: var(--navBackgroundColor);
+    color: white;
+    box-shadow: black 5px 5px;
+    padding: 1%;
+    width: 18%;
+    height: 590px;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.moreAboutMeColTitle {
+    margin: 0;
+    align-self: center;
+}
+
+.moreAboutMeList {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+/* PROJECTS SECTION */
+#projectsHeader {
+    /* border: solid black 4px; */
+    background-color: #24252A;
+    color: white;
+    padding: 3% 0 0 14%;
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+#projects {
+    /* border: solid black 4px; */
+    background-color: #24252A;
+    height: 1000px;
+    flex-flow: column;
+    padding: 75px 5% 150px 5%;
+}
+
+#mainProjectCard {
+    /* border: solid black 4px; */
+    height: 400px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#secondProjectCard {
+    /* border: solid black 4px; */
+    height: 400px;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+#thirdProjectCard {
+    /* border: solid black 4px; */
+    height: 400px;
+    justify-content: center;
+}
+
+.projectCardBox {
+    color: white;
+    text-decoration: none;
+}
+
+#projectCardOne {
+    border: solid black 4px;
+    background-color: var(--navBackgroundColor);
+    box-shadow: black 5px 5px;
+    width: 80%;
+    flex-flow: column-reverse;
+}
+
+#projectCardTwo {
+    border: solid black 4px;
+    background-color: var(--navBackgroundColor);
+    box-shadow: black 5px 5px;
+    width: 39%;
+    flex-flow: column-reverse;
+    margin-right: 2%;
+}
+
+#projectCardThree {
+    border: solid black 4px;
+    background-color: var(--navBackgroundColor);
+    box-shadow: black 5px 5px;
+    width: 39%;
+    flex-flow: column-reverse;
+}
+
+#projectCardFour {
+    border: solid black 4px;
+    background-color: var(--navBackgroundColor);
+    box-shadow: black 5px 5px;
+    width: 39%;
+    flex-flow: column-reverse;
+    margin-right: 2%;
+}
+
+#projectCardFive {
+    border: solid black 4px;
+    background-color: var(--navBackgroundColor);
+    box-shadow: black 5px 5px;
+    width: 39%;
+    flex-flow: column-reverse;
+}
+
+/* CONTACT SECTION */
+#contact {
+    background-color: #171010;
+    border-top: solid black 5px;
+    height: 100px;
+    align-items: center;
+}
+
+#iconBox{
+    margin-left: 1%;
+}
+
+#linkedIconAnchor {
+    margin: 0 20% 0 20%;
+}
+
+#emailIcon {
+    height: 50px;
+    width: 50px;
+}
+
+#linkedIcon {
+    height: 50px;
+    width: 50px;
+}
+
+#gitIcon {
+    height: 50px;
+    width: 50px;
+}
