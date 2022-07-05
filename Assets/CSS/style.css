@@ -110,10 +110,10 @@ nav a {
 #moreAboutMeHeader {
     /* border: solid black 4px; */
     background-color: #24252A;
+    text-shadow: black 7px 7px;
     color: white;
     padding: 3% 0 0 14%;
     font-size: 200%;
-    text-decoration: underline;
 }
 
 #moreAboutMe {
@@ -128,7 +128,7 @@ nav a {
     /* border: solid black 4px; */
     background-color: var(--navBackgroundColor);
     color: white;
-    box-shadow: black 5px 5px;
+    box-shadow: black 8px 8px;
     padding: 1%;
     width: 18%;
     height: 590px;
@@ -140,7 +140,7 @@ nav a {
     /* border: solid black 4px; */
     background-color: var(--navBackgroundColor);
     color: white;
-    box-shadow: black 5px 5px;
+    box-shadow: black 8px 8px;
     margin: 0 6% 0 6%;
     padding: 1%;
     width: 18%;
@@ -153,7 +153,7 @@ nav a {
     /* border: solid black 4px; */
     background-color: var(--navBackgroundColor);
     color: white;
-    box-shadow: black 5px 5px;
+    box-shadow: black 8px 8px;
     padding: 1%;
     width: 18%;
     height: 590px;
@@ -175,10 +175,10 @@ nav a {
 #projectsHeader {
     /* border: solid black 4px; */
     background-color: #24252A;
+    text-shadow: black 7px 7px;
     color: white;
     padding: 3% 0 0 14%;
     font-size: 200%;
-    text-decoration: underline;
 }
 
 #projects {
@@ -285,4 +285,76 @@ nav a {
 #gitIcon {
     height: 50px;
     width: 50px;
+}
+
+@media screen and (max-width: 2060px) {
+    #moreAboutMeCol1 {
+        font-size: 90%;
+    }
+    #moreAboutMeCol2 {
+        font-size: 90%;
+    }
+    #moreAboutMeCol3 {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1514px) {
+    #moreAboutMeCol1 {
+        font-size: 80%;
+    }
+    #moreAboutMeCol2 {
+        font-size: 80%;
+    }
+    #moreAboutMeCol3 {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1264px) {
+    #moreAboutMeCol1 {
+        font-size: 70%;
+    }
+    #moreAboutMeCol2 {
+        font-size: 70%;
+    }
+    #moreAboutMeCol3 {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    #moreAboutMeCol1 {
+        font-size: 60%;
+    }
+    #moreAboutMeCol2 {
+        font-size: 60%;
+    }
+    #moreAboutMeCol3 {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #moreAboutMeCol1 {
+        font-size: 50%;
+    }
+    #moreAboutMeCol2 {
+        font-size: 50%;
+    }
+    #moreAboutMeCol3 {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #moreAboutMeCol1 {
+        font-size: 40%;
+    }
+    #moreAboutMeCol2 {
+        font-size: 40%;
+    }
+    #moreAboutMeCol3 {
+        font-size: 40%;
+    }
 }
